@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: { max: "767px" },
+        // => @media (max-width: 767px) { ... }
+      },
+    },
   },
   plugins: [],
 };

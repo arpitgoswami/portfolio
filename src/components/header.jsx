@@ -2,7 +2,7 @@ function Header() {
   return (
     <>
       <div id="header-container" className="py-10">
-        <div className="mx-8 text-3xl flex justify-between">
+        <div className="sm:mx-6 mx-8 text-3xl flex justify-between">
           <p>Arpit.</p>
           <p>Icons</p>
           <nav className="hidden">
@@ -12,14 +12,14 @@ function Header() {
             <p>Contact</p>
           </nav>
         </div>
-        <div className="mx-60 my-10">
+        <div className="sm:mx-6 mx-60 my-10">
           <p className="px-2 py-1 text-xl bg-slate-500  text-center w-36">
             Hi! Everyone
           </p>
-          <p className="my-6 text-8xl">
+          <p className="sm:text-5xl my-6 text-8xl">
             Chris Lee <br /> Brand Designer
           </p>
-          <p className="my-8 text-slate-300 ">
+          <p className="sm:text-sm my-8 text-slate-300 ">
             Make designs mainly logos, visual identities, apps
             <br /> & websites, social media and magazines.
           </p>

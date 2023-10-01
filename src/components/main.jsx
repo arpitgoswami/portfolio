@@ -1,9 +1,9 @@
 function Main() {
   return (
     <>
-      <div id="about-container" className="mx-60 my-40">
-        <p className="my-6 text-8xl">About</p>
-        <div className="grid grid-cols-2 gap-8">
+      <div id="about-container" className="sm:mx-6 mx-60 my-40">
+        <p className="sm:text-5xl my-6 text-8xl">About</p>
+        <div className="sm:grid-cols-1 grid grid-cols-2 gap-8">
           <div>
             <p className="my-8 text-slate-300 ">
               I’m Chris Lee, a front-end web developer and Web Page Designer
@@ -35,9 +35,9 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="mx-60">
-        <p className="my-6 text-8xl text-center">Portfolio</p>
-        <div className="grid grid-cols-2 gap-6">
+      <div className="sm:mx-6 mx-60">
+        <p className="sm:text-5xl my-6 text-8xl text-center">Portfolio</p>
+        <div className="sm:grid-cols-1 grid grid-cols-2 gap-6">
           <div>
             <img
               src="https://demo.templatesjungle.com/chris/images/portfolio1.jpg"
