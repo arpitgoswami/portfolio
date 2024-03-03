@@ -1,37 +1,41 @@
+import { HiOutlineBars3BottomRight } from 'react-icons/hi2'
+
 function Header() {
-  return (
-    <>
-      <div id="header-container" className="py-10">
-        <div className="sm:mx-6 mx-8 text-3xl flex justify-between">
-          <p>Arpit.</p>
-          <p>Icons</p>
-          <nav className="hidden">
-            <p>Home</p>
-            <p>Designs</p>
-            <p>Achivements</p>
-            <p>Contact</p>
-          </nav>
-        </div>
-        <div className="sm:mx-6 mx-60 my-10">
-          <p className="px-2 py-1 text-xl bg-slate-500  text-center w-36">
-            Hi! Everyone
-          </p>
-          <p className="sm:text-5xl my-6 text-8xl">
-            Chris Lee <br /> Brand Designer
-          </p>
-          <p className="sm:text-sm my-8 text-slate-300 ">
-            Make designs mainly logos, visual identities, apps
-            <br /> & websites, social media and magazines.
-          </p>
-          <a href="">
-            <p className="py-1 block border-2 border-white w-36 text-center">
-              GET IN TOUCH
-            </p>
-          </a>
-        </div>
-      </div>
-    </>
-  );
+   return (
+      <>
+         <div id="header-container" className="py-10">
+            <div className="mx-8 flex items-center justify-between text-3xl sm:mx-6">
+               <div>Arpit.</div>
+               <div>
+                  <HiOutlineBars3BottomRight />
+               </div>
+               <nav className="hidden">
+                  <div>Home</div>
+                  <div>Designs</div>
+                  <div>Achivements</div>
+                  <div>Contact</div>
+               </nav>
+            </div>
+            <div className="mx-60 my-10 sm:mx-6">
+               <div className="block w-36 border-2 border-white bg-white py-1 text-center text-black">
+                  Hi Everyone !
+               </div>
+               <div className="my-6 text-8xl sm:text-5xl">
+                  Arpit Goswami <br /> Full Stack Developer
+               </div>
+               <div className="width my-8 text-slate-300 sm:text-sm">
+                  Make designs mainly logos, visual identities, apps & websites,
+                  social media and magazines.
+               </div>
+               <a href="">
+                  <div className="btn block w-36 border-2 border-white py-1 text-center">
+                     GET IN TOUCH
+                  </div>
+               </a>
+            </div>
+         </div>
+      </>
+   )
 }
 
-export default Header;
+export default Header
