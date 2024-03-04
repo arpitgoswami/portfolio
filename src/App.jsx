@@ -7,8 +7,6 @@ function App() {
    return (
       <div className="content">
          <Header />
-         <Main />
-         <Footer />
       </div>
    )
 }
