@@ -4,11 +4,39 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+   --theme-dark-shade: #111;
+   --theme-white-shade: #fff;
+}
+
 #header-container {
-   background-color: #111;
-   color: #fff;
    width: 100%;
-   height: 100vh;
+   height: 95vh;
+   position: relative;
+   background-color: var(--theme-dark-shade);
+   color: var(--theme-white-shade);
+}
+
+#header-first {
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   position: absolute;
+}
+
+#header-last {
+   bottom: 0;
+   z-index: 1;
+   width: 100%;
+   position: absolute;
+}
+
+#sidebar {
+   top: 0;
+   width: 80%;
+   z-index: 1;
+   height: 95vh;
+   position: absolute;
 }
 
 .content {
@@ -19,7 +47,7 @@
    display: block;
    width: 100%;
    height: 0.2rem;
-   background-color: #111;
+   background-color: --theme-dark-shade;
    position: relative;
 }
 
@@ -56,7 +84,7 @@
    z-index: -1;
    content: ' ';
    position: absolute;
-   background-color: #fff;
+   background-color: var(--theme-white-shade);
    transition-duration: 0.4s;
 }
 
@@ -76,12 +104,12 @@
    z-index: -1;
    content: ' ';
    position: absolute;
-   background-color: #fff;
+   background-color: var(--theme-white-shade);
    transition-duration: 0.4s;
 }
 
 .btn:last-child:hover {
-   color: #fff;
+   color: var(--theme-white-shade);
 }
 
 .btn:last-child:hover::after {
