@@ -1,8 +1,9 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Website Screenshot
 
-Currently, two official plugins are available:
+![FireShot Capture 005 - Arpit Goswami - Full Stack Developer - portfolio-website-xtng onrender com](https://github.com/arpitgoswami/portfolio/assets/71710858/c148dafb-454e-4f15-88dd-decbce443c71)
 
--  [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--  [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Mobile Screenshot
+
+![FireShot Capture 006 - Arpit Goswami - Full Stack Developer - portfolio-website-xtng onrender com](https://github.com/arpitgoswami/portfolio/assets/71710858/6f4a8518-97d5-4a79-a0ec-d9d288a137d1)
