@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Poppins&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-   --theme-dark-shade: #111;
-   --theme-white-shade: #fff;
+   --theme-dark-shade: #06191d;
+   --theme-white-shade: #dddddd;
 }
 
 #header-container {
    width: 100%;
-   height: 95vh;
+   height: 100vh;
    position: relative;
-   background-color: var(--theme-dark-shade);
    color: var(--theme-white-shade);
+   background-color: var(--theme-dark-shade);
 }
 
 #header-first {
@@ -35,35 +33,8 @@
    top: 0;
    width: 80%;
    z-index: 1;
-   height: 95vh;
+   height: 100vh;
    position: absolute;
-}
-
-.content {
-   font-family: 'Poppins', sans-serif;
-}
-
-.progress-bar {
-   display: block;
-   width: 100%;
-   height: 0.2rem;
-   background-color: --theme-dark-shade;
-   position: relative;
-}
-
-.progress-bar::before {
-   content: '';
-   display: block;
-   width: 50%;
-   height: 0.2rem;
-   position: absolute;
-   top: 0;
-   left: 0;
-   background-color: #999;
-}
-
-.progress-bar:nth-child(4)::before {
-   width: 80%;
 }
 
 .btn {
@@ -80,9 +51,9 @@
    top: 0;
    left: 0;
    width: 0%;
-   height: 100%;
    z-index: -1;
    content: ' ';
+   height: 100%;
    position: absolute;
    background-color: var(--theme-white-shade);
    transition-duration: 0.4s;
@@ -93,7 +64,7 @@
 }
 
 .btn:last-child {
-   color: #000;
+   color: var(--theme-dark-shade);
 }
 
 .btn:last-child::after {
@@ -116,12 +87,5 @@
    width: 0%;
 }
 
-.width {
-   width: 24rem;
-}
-
 @media (max-width: 767px) {
-   .width {
-      width: 100%;
-   }
 }
