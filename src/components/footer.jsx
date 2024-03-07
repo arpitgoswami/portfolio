@@ -1,45 +1,30 @@
+import { FaGithub } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { IoLogoReddit } from 'react-icons/io5'
+
 function Footer() {
    return (
       <>
-         <footer style={{ background: '#111111', color: '#595959' }}>
-            <div className="mx-60 grid grid-cols-2 gap-12 pt-16 sm:mx-6 sm:grid-cols-1">
-               <div>
-                  <p
-                     className="m-0 text-4xl font-semibold"
-                     style={{ color: '#3AB449' }}
-                  >
-                     Arpit
-                  </p>
-                  <p className="my-4 ">
-                     Proin eget tortor risus. Mauris blandit aliquet elit, eget
-                     tincidunt nibh pulvinar a. Praesent sapien massa, convallis
-                     a pellentesque nec, egestas non nisi. Mauris blandit
-                     aliquet elit, eget tincidunt nibh pulvinar a. Nulla
-                     porttitor accumsan tincidunt. Nulla porttitor accumsan
-                     tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-                  </p>
+         <div
+            id="header-last"
+            className="header-second border-t-[1px] border-[var(--theme-white-shade)] bg-[var(--theme-dark-shade)] px-8 py-6 text-[var(--theme-white-shade)] sm:px-6"
+         >
+            <div className="flex items-center space-x-4 text-lg ">
+               <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
+                  <FaGithub />
                </div>
-               <div>
-                  <p
-                     className="text-lg font-medium"
-                     style={{ color: '#FFFFF0' }}
-                  >
-                     Get Notified
-                  </p>
-                  <p className="my-4">
-                     Quia quo qui sed odit. Quaerat voluptas autem
-                     necessitatibus vitae aut non alias sed quia. Ut itaque enim
-                     optio ut excepturi deserunt iusto porro.
-                  </p>
-                  <input type="text" />
-                  <button className="text-white">Subscribe</button>
+               <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
+                  <FaLinkedinIn />
+               </div>
+               <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
+                  <FaInstagram />
+               </div>
+               <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
+                  <IoLogoReddit />
                </div>
             </div>
-            <p className="pb-16 text-center">
-               © Copyright Arpit 2022 | Site Template by{' '}
-               <span style={{ color: '#FFFFF0' }}>Colorlib</span>
-            </p>
-         </footer>
+         </div>
       </>
    )
 }

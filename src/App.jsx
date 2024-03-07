@@ -1,6 +1,7 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './components/Home'
-import Main from './components/main'
-import Footer from './components/footer'
+import About from './components/About'
 
 import '../styles/global.css'
 import '../styles/fonts.css'
@@ -8,7 +9,9 @@ import '../styles/fonts.css'
 function App() {
    return (
       <div id="font-Noto">
-         <Home />
+         <Header />
+         <About />
+         <Footer />
       </div>
    )
 }
