@@ -4,11 +4,13 @@
 
 :root {
    --theme-dark-shade: #06191d;
+   --theme-primary-shade: #a7bbbe;
    --theme-white-shade: #dddddd;
 }
 
 body {
    position: relative;
+   cursor: default;
 }
 
 #header-container {

@@ -6,23 +6,28 @@ import { useTransition } from 'react'
 
 import { motion } from 'framer-motion'
 
+import Home from './Home'
+import About from './About'
+
+import ReactDOM from 'react-dom'
+
 function Header() {
-   const [status, setStatus] = useState('none')
+   const [status, setStatus] = useState('flex')
    const [toggle, setToggle] = useState(true)
-   const [isPending, startTransition] = useTransition({ timeoutMs: 3000 })
 
    const toggleSidebar = () => {
       if (status === 'flex') {
-         startTransition(() => {
-            setStatus('none')
-            setToggle(true)
-         })
+         setStatus('none')
+         setToggle(true)
       } else {
-         startTransition(() => {
-            setStatus('flex')
-            setToggle(false)
-         })
+         setStatus('flex')
+         setToggle(false)
       }
+   }
+
+   function renderApp(component, str) {
+      ReactDOM.render(component, document.getElementById('workspace'))
+      toggleSidebar()
    }
 
    return (
@@ -40,6 +45,37 @@ function Header() {
                   {toggle ? <HiOutlineBars3BottomRight /> : <RxCross2 />}
                </button>
             </div>
+         </div>
+
+         <motion.div
+            initial={{ opacity: 0, zIndex: '10' }}
+            animate={toggle ? {} : { opacity: 1 }}
+            transition={{ duration: 0.5 }}
+         >
+            <div
+               id="sidebar"
+               style={{ display: status }}
+               className="flex items-center justify-center border-r-[1px] border-[var(--theme-white-shade)] bg-[var(--theme-dark-shade)] text-[var(--theme-white-shade)]"
+            >
+               <div className="space-y-4 text-3xl">
+                  <div
+                     className="duration-300 hover:opacity-50"
+                     onClick={() => renderApp(<Home />)}
+                  >
+                     Home
+                  </div>
+                  <div
+                     className="duration-300 hover:opacity-50"
+                     onClick={() => renderApp(<About />)}
+                  >
+                     About
+                  </div>
+               </div>
+            </div>
+         </motion.div>
+
+         <div id="workspace">
+            <Home />
          </div>
       </>
    )

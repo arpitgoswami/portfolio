@@ -1,16 +1,15 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from './components/Home'
-import About from './components/About'
+import Framer from './components/Framer'
 
 import '../styles/global.css'
 import '../styles/fonts.css'
+import '../styles/about.css'
 
 function App() {
    return (
       <div id="font-Noto">
          <Header />
-         <About />
          <Footer />
       </div>
    )
