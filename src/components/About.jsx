@@ -53,16 +53,16 @@ function About() {
                </div>
 
                <div>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris.
+                  Always eager to develop extraordinary applications, I have
+                  acquired a diverse set of skills across various fields. The
+                  following are the primary areas in which I have taken the lead
+                  and honed my expertise.
                </div>
 
                <div className="space-y-8 pb-2 pt-4">
                   <div>
                      <div className="text-xl font-semibold">
-                        React Programming
+                        Java Programming
                      </div>
                      <div className="text-xs">-- Advance</div>
                      <span className="mt-2" id="progress-bar"></span>
@@ -70,7 +70,7 @@ function About() {
 
                   <div>
                      <div className="text-xl font-semibold">
-                        Another Programming
+                        React & MERN Stack
                      </div>
                      <div className="text-xs">-- Advance</div>
                      <span className="mt-2" id="progress-bar"></span>
@@ -78,15 +78,17 @@ function About() {
 
                   <div>
                      <div className="text-xl font-semibold">
-                        Badge Programming
+                        AWS Cloud Engine
                      </div>
-                     <div className="text-xs">-- Advance</div>
+                     <div className="text-xs">-- Intermediate</div>
                      <span className="mt-2" id="progress-bar"></span>
                   </div>
 
                   <div>
-                     <div className="text-xl font-semibold">MERN Stack</div>
-                     <div className="text-xs">-- Advance</div>
+                     <div className="text-xl font-semibold">
+                        Blockchain Solidity Programming
+                     </div>
+                     <div className="text-xs">-- Beginner</div>
                      <span className="mt-2" id="progress-bar"></span>
                   </div>
                </div>

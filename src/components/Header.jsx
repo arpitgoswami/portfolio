@@ -47,32 +47,32 @@ function Header() {
             </div>
          </div>
 
-         <motion.div
+         {/* <motion.div
             initial={{ opacity: 0, zIndex: '10' }}
             animate={toggle ? {} : { opacity: 1 }}
             transition={{ duration: 0.5 }}
+   >*/}
+         <div
+            id="sidebar"
+            style={{ display: status }}
+            className="flex items-center justify-center border-r-[1px] border-[var(--theme-white-shade)] bg-[var(--theme-dark-shade)] text-[var(--theme-white-shade)]"
          >
-            <div
-               id="sidebar"
-               style={{ display: status }}
-               className="flex items-center justify-center border-r-[1px] border-[var(--theme-white-shade)] bg-[var(--theme-dark-shade)] text-[var(--theme-white-shade)]"
-            >
-               <div className="space-y-4 text-3xl">
-                  <div
-                     className="duration-300 hover:opacity-50"
-                     onClick={() => renderApp(<Home />)}
-                  >
-                     Home
-                  </div>
-                  <div
-                     className="duration-300 hover:opacity-50"
-                     onClick={() => renderApp(<About />)}
-                  >
-                     About
-                  </div>
+            <div className="space-y-4 text-3xl">
+               <div
+                  className="duration-300 hover:opacity-50"
+                  onClick={() => renderApp(<Home />)}
+               >
+                  Home
+               </div>
+               <div
+                  className="duration-300 hover:opacity-50"
+                  onClick={() => renderApp(<About />)}
+               >
+                  About
                </div>
             </div>
-         </motion.div>
+         </div>
+         {/*</motion.div>*/}
 
          <div id="workspace">
             <Home />
