@@ -12,7 +12,7 @@ import About from './About'
 import ReactDOM from 'react-dom'
 
 function Header() {
-   const [status, setStatus] = useState('flex')
+   const [status, setStatus] = useState('none')
    const [toggle, setToggle] = useState(true)
 
    const toggleSidebar = () => {
