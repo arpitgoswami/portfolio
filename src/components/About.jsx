@@ -10,59 +10,62 @@ function About() {
                </div>
 
                <div>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris.
+                  A passionate pre-final year engineering student, mastered the
+                  expertise in software development, specialized in MERN stack
+                  and Java programming.
                </div>
 
                <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-3xl font-semibold">3.5 million+</div>
-                  <div className="text-xl">estate planning docs</div>
+                  <div className="text-2xl font-semibold">Freelancing</div>
+                  <div className="text-lg opacity-60">-- hobby</div>
                   <div>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna
                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     Duis aute irure dolor in reprehenderit in voluptate velit
-                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                     occaecat cupidatat non proident.
+                     Duis aute irure.
                   </div>
                </div>
 
                <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-3xl font-semibold">2 million+</div>
-                  <div className="text-xl">businesses</div>
+                  <div className="text-2xl font-semibold">Freelancing</div>
+                  <div className="text-lg opacity-60">-- hobby</div>
                   <div>
-                     Helping entrepreneurs turn ideas into bussinesses over 2
-                     million times.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                     Duis aute irure.
                   </div>
                </div>
 
                <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-3xl font-semibold">2 million+</div>
-                  <div className="text-xl">businesses</div>
+                  <div className="text-2xl font-semibold">Freelancing</div>
+                  <div className="text-lg opacity-60">-- hobby</div>
                   <div>
-                     Helping entrepreneurs turn ideas into bussinesses over 2
-                     million times.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                     Duis aute irure.
                   </div>
                </div>
 
                <div className="pt-8 text-4xl" id="font-DM">
-                  Skills
+                  Core Skills
                </div>
 
                <div>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris.
+                  Always eager to develop some extraordinary, I have acquired a
+                  diverse set of technical core skills across various
+                  technologies. The following are the primary areas in which I
+                  have taken the lead and honed my expertise.
                </div>
 
                <div className="space-y-8 pb-2 pt-4">
                   <div>
                      <div className="text-xl font-semibold">
-                        React Programming
+                        Java Programming
                      </div>
                      <div className="text-xs">-- Advance</div>
                      <span className="mt-2" id="progress-bar"></span>
@@ -70,7 +73,7 @@ function About() {
 
                   <div>
                      <div className="text-xl font-semibold">
-                        Another Programming
+                        React & MERN Stack
                      </div>
                      <div className="text-xs">-- Advance</div>
                      <span className="mt-2" id="progress-bar"></span>
@@ -78,15 +81,45 @@ function About() {
 
                   <div>
                      <div className="text-xl font-semibold">
-                        Badge Programming
+                        AWS Cloud Engine
                      </div>
-                     <div className="text-xs">-- Advance</div>
+                     <div className="text-xs">-- Intermediate</div>
                      <span className="mt-2" id="progress-bar"></span>
                   </div>
 
                   <div>
-                     <div className="text-xl font-semibold">MERN Stack</div>
-                     <div className="text-xs">-- Advance</div>
+                     <div className="text-xl font-semibold">
+                        Blockchain Solidity Programming
+                     </div>
+                     <div className="text-xs">-- Beginner</div>
+                     <span className="mt-2" id="progress-bar"></span>
+                  </div>
+               </div>
+
+               <div className="pt-8 text-4xl" id="font-DM">
+                  Soft Skills
+               </div>
+
+               <div>
+                  In addition to core competencies, proficiency in business soft
+                  skills is imperative for effective presentation and
+                  interaction within an organization. The following soft skills
+                  have been honed by me.
+               </div>
+               <div className="space-y-8 pb-2 pt-4">
+                  <div>
+                     <div className="text-xl font-semibold">
+                        Problem Solving
+                     </div>
+                     <div className="text-xs">-- Beginner</div>
+                     <span className="mt-2" id="progress-bar"></span>
+                  </div>
+
+                  <div>
+                     <div className="text-xl font-semibold">
+                        Communication Skills
+                     </div>
+                     <div className="text-xs">-- Beginner</div>
                      <span className="mt-2" id="progress-bar"></span>
                   </div>
                </div>

@@ -23,11 +23,11 @@
 }
 
 .space-y-8 > div:nth-child(1) #progress-bar:after {
-   width: 100%;
+   width: 90%;
 }
 
 .space-y-8 > div:nth-child(2) #progress-bar:after {
-   width: 40%;
+   width: 80%;
 }
 
 .space-y-8 > div:nth-child(3) #progress-bar:after {
@@ -35,5 +35,13 @@
 }
 
 .space-y-8 > div:nth-child(4) #progress-bar:after {
+   width: 20%;
+}
+
+.space-y-8 > div:nth-child(5) #progress-bar::after {
    width: 80%;
+}
+
+.space-y-8 > div:nth-child(6) #progress-bar::after {
+   width: 40%;
 }
