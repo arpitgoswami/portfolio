@@ -1,6 +1,6 @@
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
+import { SiLeetcode } from 'react-icons/si'
 import { IoLogoReddit } from 'react-icons/io5'
 
 function Footer() {
@@ -23,8 +23,11 @@ function Footer() {
                >
                   <FaLinkedinIn />
                </div>
-               <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
-                  <FaInstagram />
+               <div
+                  className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]"
+                  onClick={() => window.open('https://rb.gy/62d13a', '_blank')}
+               >
+                  <SiLeetcode />
                </div>
                <div className="border border-[2px] border-[var(--theme-white-shade)] p-2 duration-300 hover:bg-[var(--theme-white-shade)] hover:text-[var(--theme-dark-shade)]">
                   <IoLogoReddit />
