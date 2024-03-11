@@ -1,5 +1,7 @@
 # Portfolio Website
 
+A simple portfolio website.
+
 ## Website Screenshot
 
 ![FireShot Capture 005 - Arpit Goswami - Full Stack Developer - portfolio-website-xtng onrender com](https://github.com/arpitgoswami/portfolio/assets/71710858/c148dafb-454e-4f15-88dd-decbce443c71)
