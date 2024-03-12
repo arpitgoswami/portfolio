@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A simple portfolio website.
+A simple portfolio website. 
 
 ## Website Screenshot
 
