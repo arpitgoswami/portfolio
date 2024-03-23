@@ -15,39 +15,54 @@ function About() {
                   and Java programming.
                </div>
 
-               <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-2xl font-semibold">Freelancing</div>
-                  <div className="text-lg opacity-60">-- hobby</div>
-                  <div>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     Duis aute irure.
+               <div className="grid grid-cols-2 gap-4 sm:grid-cols-1">
+                  <div className="space-y-2 border border-[var(--theme-dark-shade)]">
+                     <img
+                        src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        id="about-img"
+                        alt="404: Image Not Found"
+                     />
+                     <div className="p-4">
+                        <div className="text-2xl font-semibold">
+                           Programming
+                        </div>
+                        <div className="text-lg opacity-60">-- profession</div>
+                        <div>
+                           As programming stands as my chosen profession, I am
+                           deeply engaged in the intricate interplay of logic
+                           and creativity, orchestrating solutions that
+                           seamlessly unite human conceptualization with digital
+                           manifestation. In the dynamic realm of technology,
+                           characterized by perpetual evolution, I am committed
+                           to a path of perpetual learning, embracing new
+                           methodologies and tools to maintain a position of
+                           foresight and relevance.{' '}
+                        </div>
+                     </div>
                   </div>
-               </div>
 
-               <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-2xl font-semibold">Freelancing</div>
-                  <div className="text-lg opacity-60">-- hobby</div>
-                  <div>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     Duis aute irure.
-                  </div>
-               </div>
-
-               <div className="space-y-2 border border-[var(--theme-dark-shade)] p-4">
-                  <div className="text-2xl font-semibold">Freelancing</div>
-                  <div className="text-lg opacity-60">-- hobby</div>
-                  <div>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     Duis aute irure.
+                  <div className="space-y-2 border border-[var(--theme-dark-shade)]">
+                     <img
+                        src="https://images.pexels.com/photos/5980921/pexels-photo-5980921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        id="about-img"
+                        alt="404: Image Not Found"
+                     />
+                     <div className="p-4">
+                        <div className="text-2xl font-semibold">Blockchain</div>
+                        <div className="text-lg opacity-60">-- interest</div>
+                        <div>
+                           As blockchain captivates my interest, I find myself
+                           deeply engrossed in exploring the intricate workings
+                           of decentralized systems, where cryptographic
+                           principles and distributed consensus mechanisms
+                           converge to redefine trust and transparency in
+                           digital transactions. Each block mined, each smart
+                           contract deployed, represents a captivating journey
+                           into the realms of cryptography, algorithms, and
+                           decentralized governance, unveiling the potential to
+                           reshape industries and empower individuals worldwide.
+                        </div>
+                     </div>
                   </div>
                </div>
 
