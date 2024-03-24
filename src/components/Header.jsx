@@ -7,6 +7,7 @@ import { useTransition } from 'react'
 import { motion } from 'framer-motion'
 
 import Home from './Home'
+import Prices from './Prices'
 import About from './About'
 
 import ReactDOM from 'react-dom'
@@ -63,6 +64,12 @@ function Header() {
                   onClick={() => renderApp(<Home />)}
                >
                   Home
+               </div>
+               <div
+                  className="duration-300 hover:opacity-50"
+                  onClick={() => renderApp(<Prices />)}
+               >
+                  Prices
                </div>
                <div
                   className="duration-300 hover:opacity-50"

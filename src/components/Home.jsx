@@ -8,7 +8,7 @@ function Home() {
                </div>
                <div
                   className="mt-6 text-8xl leading-[1.2] sm:text-5xl sm:leading-[1.2]"
-                  id="font-DM"
+                  id="font-DM empty"
                >
                   Arpit Goswami <br /> Full Stack Developer
                </div>
