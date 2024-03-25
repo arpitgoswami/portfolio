@@ -19,7 +19,7 @@ function Home() {
                </div>
                <div className="flex space-x-4">
                   <div className="btn block w-36 border-2 border-[var(--theme-white-shade)] py-2  text-center">
-                     Get Started
+                     Contact
                   </div>
                   <div
                      className="btn block w-36 border-2 border-[var(--theme-white-shade)] py-2 text-center"

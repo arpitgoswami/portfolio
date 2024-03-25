@@ -1,9 +1,8 @@
-import Header from './components/Header'
+import About from './components/About'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Framer from './components/Framer'
-import Terminal from './addons/Terminal'
-
-import Wizard from './Wizard'
+import Header from './components/Header'
 
 import '../styles/about.css'
 import '../styles/fonts.css'
@@ -16,7 +15,7 @@ function App() {
          {/*<Header />
          <Footer />*/}
 
-         <Wizard />
+         <Contact />
       </div>
    )
 }
