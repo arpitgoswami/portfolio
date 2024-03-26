@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <style>
+        .audio-player {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .progress-bar .progress {
+            height: 100%;
+            background-color: #4caf50;
+            /* Green */
+            border-radius: 5px;
+            width: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="audio-player">
+        <audio id="audio" src="dark.mp3"></audio>
+        <button id="playButton">Play</button>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const audio = document.getElementById('audio');
+            const playButton = document.getElementById('playButton');
+            const progress = document.getElementById('progress');
+
+            playButton.addEventListener('click', function () {
+                if (audio.paused) {
+                    audio.play();
+                    playButton.textContent = 'Pause';
+                } else {
+                    audio.pause();
+                    playButton.textContent = 'Play';
+                }
+            });
+
+            audio.addEventListener('timeupdate', function () {
+                const duration = audio.duration;
+                const currentTime = audio.currentTime;
+                const progressPercent = (currentTime / duration) * 100;
+                progress.style.width = progressPercent + '%';
+            });
+        });
+    </script>
+</body>
+
+</html>

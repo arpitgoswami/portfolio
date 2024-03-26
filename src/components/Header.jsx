@@ -4,10 +4,8 @@ import { RxCross2 } from 'react-icons/rx'
 import { useState } from 'react'
 import { useTransition } from 'react'
 
-import { motion } from 'framer-motion'
-
 import Home from './Home'
-import Prices from './Prices'
+import Prices from './Player'
 import About from './About'
 
 import ReactDOM from 'react-dom'

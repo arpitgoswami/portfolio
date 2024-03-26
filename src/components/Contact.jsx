@@ -5,7 +5,7 @@ import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../../firebase'
 
 function Contact() {
-   const [state, setState] = useState('none')
+   const [state, setState] = useState('')
 
    const [name, setName] = useState('')
    const [email, setEmail] = useState('')
@@ -37,7 +37,7 @@ function Contact() {
          >
             <div
                id="visibleContainer"
-               className="w-[24rem] space-y-4 rounded-[2rem] bg-[#222] py-8 shadow-2xl"
+               className="mx-4 w-[24rem] space-y-4 rounded-[2rem] bg-[#222] py-8 shadow-2xl"
             >
                <div className="mx-8 text-2xl font-bold">Get In Touch</div>
                <div className="px-8 text-sm">
@@ -87,7 +87,10 @@ function Contact() {
                      value={message}
                      onChange={(e) => setMessage(e.target.value)}
                   />
-                  <button type="submit" onClick={Submit}>
+                  <button
+                     className="rounded bg-[#fff] px-2 py-1 text-[#222] duration-200 hover:bg-[#999] active:bg-[#999]"
+                     onClick={Submit}
+                  >
                      Submit
                   </button>
                </div>
@@ -100,7 +103,10 @@ function Contact() {
                      </p>
                      <hr />
                      <p className="text-[1.2rem]">We'll be in touch shortly!</p>
-                     <button className="text-[1rem]" onClick={Reload}>
+                     <button
+                        className="rounded bg-[#fff] px-2 py-1 text-sm text-[#222] duration-200 hover:bg-[#999] active:bg-[#999]"
+                        onClick={Reload}
+                     >
                         Reset
                      </button>
                   </div>
