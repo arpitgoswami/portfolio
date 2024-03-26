@@ -5,7 +5,7 @@ import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../../firebase'
 
 function Contact() {
-   const [state, setState] = useState('')
+   const [state, setState] = useState('none')
 
    const [name, setName] = useState('')
    const [email, setEmail] = useState('')

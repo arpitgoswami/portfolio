@@ -1,8 +1,5 @@
 import 'boxicons'
 
-import AudioPlayer from 'react-h5-audio-player'
-import 'react-h5-audio-player/lib/styles.css'
-
 import { IoPlay } from 'react-icons/io5'
 import { IoArrowBackCircle } from 'react-icons/io5'
 import { IoArrowForwardCircle } from 'react-icons/io5'
@@ -32,10 +29,6 @@ function Prices() {
 
          setCurrent(currentTime.toFixed(1))
          setLength(duration.toFixed(1))
-
-         if (length === currentLength) {
-            setIsPlaying(true)
-         }
       }
 
       audio.addEventListener('timeupdate', updateProgress)
