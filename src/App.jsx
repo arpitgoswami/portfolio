@@ -1,6 +1,7 @@
 import About from './components/About'
 import Contact from './components/Contact'
 import Player from './components/Player'
+import SignUp from './components/SignUp'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -15,7 +16,7 @@ function App() {
          {/*<Header />
          <Footer />*/}
 
-         <Player />
+         <SignUp />
       </div>
    )
 }
