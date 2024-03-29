@@ -104,7 +104,7 @@ function Contact() {
                         You.
                      </p>
                      <hr />
-                     <p className="text-[1.2rem]">We'll be in touch shortly!</p>
+                     <p className="text-[1rem]">We'll be in touch shortly!</p>
                      <button
                         className="rounded bg-[#fff] px-2 py-1 text-sm text-[#222] duration-200 hover:bg-[#999] active:bg-[#999]"
                         onClick={Reload}
