@@ -5,7 +5,6 @@ import { useState } from 'react'
 import { useTransition } from 'react'
 
 import Home from './Home'
-import Prices from './Player'
 import About from './About'
 
 import ReactDOM from 'react-dom'

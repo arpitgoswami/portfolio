@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import '../../styles/contact.css'
 
 import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../../firebase'
 
+import '../../styles/contact.css'
+
 function Contact() {
    const [state, setState] = useState('none')
-
    const [name, setName] = useState('')
    const [email, setEmail] = useState('')
    const [company, setCompany] = useState('')
@@ -32,16 +32,16 @@ function Contact() {
    return (
       <>
          <div
-            id="font-Code"
-            className="flex h-[100vh] w-[100wh] items-center justify-center bg-[#333] text-white"
+            id="font-Noto"
+            className="flex h-[100vh] w-[100wh] items-center justify-center bg-[var(--theme-dark-shade)] text-white"
          >
             <div
                id="visibleContainer"
-               className="mx-4 w-[24rem] space-y-4 rounded-[2rem] bg-[#222] py-8 shadow-2xl"
+               className="mx-4 w-[24rem] space-y-4 rounded-[1.5rem] bg-[var(--theme-semi-dark-shade)] py-8 shadow-2xl"
             >
                <div className="mx-8 text-2xl font-bold">Get In Touch</div>
                <div className="px-8 text-sm">
-                  <div className="">Full Name</div>
+                  <div>Full Name</div>
                   <input
                      name="name"
                      value={name}
@@ -87,12 +87,14 @@ function Contact() {
                      value={message}
                      onChange={(e) => setMessage(e.target.value)}
                   />
-                  <button
-                     className="rounded bg-[#fff] px-2 py-1 text-[#222] duration-200 hover:bg-[#999] active:bg-[#999]"
-                     onClick={Submit}
-                  >
-                     Submit
-                  </button>
+                  <div>
+                     <button
+                        className="mt-4 rounded bg-[#fff] px-2 py-1 text-[#222] duration-200 hover:bg-[#999] active:bg-[#999]"
+                        onClick={Submit}
+                     >
+                        Submit
+                     </button>
+                  </div>
                </div>
 
                <div id="hiddenContainer" style={{ display: state }}>

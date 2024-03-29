@@ -1,7 +1,5 @@
 import About from './components/About'
 import Contact from './components/Contact'
-import Player from './components/Player'
-import SignUp from './components/SignUp'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -9,6 +7,7 @@ import Footer from './components/Footer'
 import '../styles/about.css'
 import '../styles/fonts.css'
 import '../styles/global.css'
+import { Link } from 'react-router-dom'
 
 function App() {
    return (
@@ -16,7 +15,7 @@ function App() {
          {/*<Header />
          <Footer />*/}
 
-         <SignUp />
+         <Link href="/about"> blogpost</Link>
       </div>
    )
 }
