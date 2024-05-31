@@ -3,14 +3,16 @@ function Home() {
       <>
          <div id="header-container" className="flex items-center py-10">
             <div className="px-60 sm:px-6">
-               <div className="block w-36 border-2 border-[var(--theme-white-shade)] bg-[var(--theme-white-shade)] py-2 text-center text-[var(--theme-dark-shade)]">
+               <div className="excess-btn block w-36 border-2 border-[var(--theme-white-shade)] bg-[var(--theme-white-shade)] py-2 text-center text-[var(--theme-dark-shade)]">
                   Hi Everyone!
                </div>
                <div
                   className="mt-6 text-8xl leading-[1.2] sm:text-5xl sm:leading-[1.2]"
                   id="font-DM"
                >
-                  Arpit Goswami <br /> Full Stack Developer
+                  <span className="shine">Arpit</span> Goswami
+                  <br />{' '}
+                  <span className="text-outline">Full Stack Developer</span>
                </div>
                <div className="width mb-8 mt-3 text-slate-300 sm:text-sm">
                   Problem-solving full-stack developer committed to designing
