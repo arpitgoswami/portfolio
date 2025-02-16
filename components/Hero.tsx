@@ -1,10 +1,10 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { MagicButton } from "./ui/MagicButton";
+import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -52,12 +52,12 @@ export const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Transforming Concepts into Seamless Web Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+            Hi! I&apos;m Arpit Goswami, a Next.js Developer based in India.
           </p>
 
           <a href="#about">
@@ -72,3 +72,5 @@ export const Hero = () => {
     </div>
   );
 };
+
+export default Hero;

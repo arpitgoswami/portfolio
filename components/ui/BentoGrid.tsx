@@ -7,7 +7,9 @@ import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { MagicButton } from "./MagicButton";
+import GridGlobe from "./GridGlobe";
+import animationData from "@/data/confetti.json";
+import MagicButton from "../MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -57,14 +59,14 @@ export const BentoGridItem = ({
   const defaultOptions = {
     loop: copied,
     autoplay: copied,
-
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "arpitgoswami@hotmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -135,7 +137,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2}
+          {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (

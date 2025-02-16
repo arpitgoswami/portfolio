@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Web 3.0 Application.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -107,31 +107,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Arpit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arpit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arpit is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Arpit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arpit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arpit is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Arpit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arpit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arpit is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Arpit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arpit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arpit is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Arpit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arpit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arpit is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -173,15 +173,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Development Engineer",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity & productivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web 3.0 - Application Developer",
+    desc: "Designed and developed dapp for both Web & Android platforms using Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/arpitgoswami",
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "https://x.com/",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/arpit-goswami/",
   },
 ];
