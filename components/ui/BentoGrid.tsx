@@ -1,4 +1,6 @@
-import { useState } from "react";
+"use client";
+
+import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
@@ -18,6 +20,17 @@ export const BentoGrid = ({
   className?: string;
   children?: React.ReactNode;
 }) => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // For any document/window usage, check if component is mounted
+  if (!isMounted) {
+    return null; // or a loading state
+  }
+
   return (
     <div
       className={cn(
@@ -54,7 +67,12 @@ export const BentoGridItem = ({
   const leftLists = ["ReactJS", "Express", "Typescript"];
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
+  const [isMounted, setIsMounted] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const defaultOptions = {
     loop: copied,
@@ -71,6 +89,11 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
+  // Return null or loading state if not mounted
+  if (!isMounted) {
+    return null;
+  }
+
   return (
     <div
       className={cn(
@@ -79,10 +102,7 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
+        background:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >

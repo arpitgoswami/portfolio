@@ -37,7 +37,7 @@ const Footer = () => {
           Copyright © 2025 Arpit Goswami
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 md:mt-0 mt-6">
           {socialMedia.map((info) => (
             <div
               key={info.id}
