@@ -32,10 +32,11 @@ This portfolio highlights various projects and expertise in:
 
 For business inquiries and collaborations, feel free to reach out:
 
-- **Email**: [your email]  
-- **Website**: [arpitgoswami.me]  
-- **LinkedIn**: [your LinkedIn profile]  
-- **Twitter**: [www.linkedin.com/in/arpit-goswami]
+- **Email**: https://mo.ct.ws/66944
+- **Website**: https://mo.ct.ws/07633
+- **LinkedIn**: https://mo.ct.ws/67231
+- **Twitter**: https://mo.ct.ws/79875
 ---
 
 ⚡ *Building the future with AI, blockchain, and automation.*
+
