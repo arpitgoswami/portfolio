@@ -1,5 +1,7 @@
 # Business Portfolio
 
+![freepik__the-style-is-pixel-art-with-a-retro-8bit-pixelated__54203](https://github.com/user-attachments/assets/ae1d2460-e86e-4543-b815-d5caa9a14814)
+
 Welcome to my business portfolio repository, showcasing innovative AI, blockchain, ERP, web development, and automation solutions.
 
 ## 🚀 About
