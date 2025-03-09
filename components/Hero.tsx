@@ -6,12 +6,14 @@ import { Button, Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import { Toaster, toast } from "react-hot-toast";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { useModalStore } from "../store/useModalStore";
 
 import axios from "axios";
 import MagicButton from "./MagicButton";
 
 const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isOpen, setIsOpen } = useModalStore();
+
   const [formData, setFormData] = useState({
     firstName: "",
     email: "",
