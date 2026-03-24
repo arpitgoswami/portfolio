@@ -38,6 +38,17 @@ For business inquiries and collaborations, feel free to reach out:
 - **Website**: https://mo.ct.ws/07633
 - **LinkedIn**: https://mo.ct.ws/67231
 - **Twitter**: https://mo.ct.ws/79875
+
+---
+
+## 📁 Project Structure (v2.1)
+
+All `index.html` files in this repository:
+
+| File | Description |
+|------|-------------|
+| [`index.html`](./index.html) | Main portfolio single-page application |
+
 ---
 
 ⚡ *Building the future with AI, blockchain, and automation.*
